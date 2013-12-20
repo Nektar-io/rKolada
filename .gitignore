@@ -3,3 +3,13 @@
 
 # Example code in package build process
 *-Ex.R
+.Rproj.user
+
+# Other files not to include
+*.Rproj
+
+# Do not include .gitignore
+.gitignore
+
+# Do not include manpages in the 'dev' branch
+*.Rd
